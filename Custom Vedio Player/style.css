@@ -1,0 +1,64 @@
+video{
+  height: 100%;
+}
+img{
+  height: 100%;
+}
+#time{
+  color: #fff;
+  font-size: 18px;
+  font-style: oblique;
+  font-family: serif;
+}
+input{
+  width: 100%;
+}
+.flex-center{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  height: 540px;
+  width: 960px;
+}
+.control{
+  border-top: rgb(0, 102, 255);
+  width: 100%;
+  height: 20px;
+  visibility: hidden;
+
+}
+.check{
+  border: 1px solid red;
+}
+.pause{
+  width: 50px;
+  height: 100%;
+}
+.progress{
+  height: 100%;
+  width: 670px;
+}
+.wrap{
+  height: 100%;
+  width: auto;
+}
+.time{
+  width: 100px;
+  height: 100%;
+}
+.volume{
+  width: 30px;
+  height: 100%;
+}
+.volume-up-dn{
+  width: 80px;
+  height: 100%;
+}
+.fullscreen{
+  width: 30px;
+  height: 100%;
+}
